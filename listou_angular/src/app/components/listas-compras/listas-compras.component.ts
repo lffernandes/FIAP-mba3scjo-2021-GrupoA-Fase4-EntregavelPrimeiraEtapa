@@ -8,6 +8,7 @@ import {fas} from '@fortawesome/free-solid-svg-icons'
 import {  Button, Card, CardBody, CardTitle,  CardText, Row, Col,  ListGroupItem,
   ListGroup, } from "reactstrap";
   
+  
 @Component({
   selector: 'app-listas-compras',
   templateUrl: './listas-compras.component.html',

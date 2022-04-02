@@ -1,0 +1,23 @@
+
+  
+<table mdbTable>
+  <thead>
+    <tr>
+      <th  scope="col">Nome: </th>
+      <th  scope="col">Data agendada: </th>
+      <th  scope="col">Repetir: </th>
+      <th  scope="col">período: </th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr mdbTableCol *ngFor="let lista of listas">
+      <!-- <th scope="row">{{el.id}}</th> -->
+      <td>{{lista.nome}}</td>
+      <td>{{lista.dataCompra}}</td>
+
+    </tr>
+  </tbody>
+</table>
+
+  
